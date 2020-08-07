@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HummusApp.cpp">
+    <ClCompile Include="HummusExe.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
