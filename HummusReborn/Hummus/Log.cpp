@@ -9,7 +9,7 @@ namespace Hummus
 
 	void Log::Init() 
 	{
-		spdlog::set_pattern("%^[%T] %n: $v%$");
+		spdlog::set_pattern("%^[%T] %n: %v%$");
 		s_CoreLogger = spdlog::stdout_color_mt("HUMMUS"); // the core logger
 		s_CoreLogger->set_level(spdlog::level::trace);
 		s_ClientLogger = spdlog::stdout_color_mt("APP"); // the client logger

@@ -11,7 +11,7 @@ int main(int argc, char** argv)
 {
 	Hummus::Log::Init();
 	Hummus::Log::GetCoreLogger()->warn("Iniitialized Core Logger!"); 
-	(*Hummus::Log::GetClientLogger()).warn("Initialized Client Logger"); 
+	(*Hummus::Log::GetClientLogger()).info("Initialized Client Logger"); 
 
 	auto app = Hummus::CreateApplication();
 	app->Run();
