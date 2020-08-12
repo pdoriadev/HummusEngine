@@ -8,10 +8,9 @@ extern Hummus::Application* Hummus::CreateApplication();
 
 int main(int argc, char** argv)
 {
-
 	Hummus::Log::Init();
-	Hummus::Log::GetCoreLogger()->warn("Iniitialized Core Logger!"); 
-	(*Hummus::Log::GetClientLogger()).info("Initialized Client Logger"); 
+	HS_CORE_WARN("Iniitialized Core Logger!"); 
+	HS_INFO("Hello! var = {0}", 42); 
 
 	auto app = Hummus::CreateApplication();
 	app->Run();
