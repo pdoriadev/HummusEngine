@@ -17,7 +17,6 @@ public :
 
 Hummus::Application* Hummus::CreateApplication() 
 {
-	printf("HummusExe is a go! \n");
 	return new HummusExe();
 }
 

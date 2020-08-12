@@ -30,10 +30,16 @@
     <ClInclude Include="EntryPoint.h">
       <Filter>src\Hummus\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>src\Hummus\Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp">
       <Filter>src\Hummus</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

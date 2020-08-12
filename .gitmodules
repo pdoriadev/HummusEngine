@@ -1,0 +1,3 @@
+[submodule "HummusReborn/Hummus/vendor/spdlog"]
+	path = HummusReborn/Hummus/vendor/spdlog
+	url = https://github.com/gabime/spdlog

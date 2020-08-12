@@ -1,4 +1,5 @@
 #include "Application.h"
+#include <stdio.h>
 
 namespace Hummus 
 {
@@ -14,6 +15,8 @@ namespace Hummus
 
 	void Application::Run() 
 	{
-		while (true);
+		while (true) {
+			
+		}
 	}
 }
