@@ -27,10 +27,10 @@
     <ClInclude Include="Hummus.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="EntryPoint.h">
+    <ClInclude Include="Log.h">
       <Filter>src\Hummus\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Log.h">
+    <ClInclude Include="EntryPoint.h">
       <Filter>src\Hummus\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
